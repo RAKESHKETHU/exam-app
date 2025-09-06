@@ -46,8 +46,8 @@ This guide covers how to deploy the Exam Application to various platforms.
 
 3. **Set environment variables:**
    ```bash
-   heroku config:set MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/exam-app
-   heroku config:set JWT_SECRET=your-super-secret-jwt-key-here
+   heroku config:set MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/exam-app
+   heroku config:set JWT_SECRET=YOUR_SUPER_SECRET_JWT_KEY_HERE
    heroku config:set PORT=5000
    ```
 

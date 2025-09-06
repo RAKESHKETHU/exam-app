@@ -85,9 +85,9 @@ Create a `.env` file in the `backend` folder:
 ```env
 MONGO_URI=mongodb://localhost:27017/exam-app
 # OR for MongoDB Atlas:
-# MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/exam-app?retryWrites=true&w=majority
+# MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/exam-app?retryWrites=true&w=majority
 
-JWT_SECRET=your-super-secret-jwt-key-here
+JWT_SECRET=YOUR_SUPER_SECRET_JWT_KEY_HERE
 PORT=5000
 ```
 
